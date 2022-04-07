@@ -150,6 +150,9 @@ a {
   font-style: normal;
   font-weight: normal;
 }
+.non {
+  color: var(--primare-text-color);
+}
 .footer-content {
   font-size: 14px;
   line-height: 1.71;

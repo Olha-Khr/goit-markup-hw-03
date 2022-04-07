@@ -7,7 +7,6 @@
   --beckground-second: #2f303a;
 }
 .body {
-  margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: var(--primare-text-color);
@@ -64,11 +63,8 @@ a {
   letter-spacing: 0.02em;
 }
 .heade .container {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-}
-.nav {
-  display: flex;
 }
 /* _______services_______________ */
 .services {

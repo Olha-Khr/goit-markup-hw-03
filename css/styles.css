@@ -7,6 +7,7 @@
   --beckground-second: #2f303a;
 }
 .body {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
   color: var(--primare-text-color);
@@ -22,7 +23,7 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: tomato;
+  outline: 2px solid tomato;
 }
 /* _______logo___________________ */
 .logo {
@@ -61,6 +62,13 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.heade .container {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
 }
 /* _______services_______________ */
 .services {

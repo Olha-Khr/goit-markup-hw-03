@@ -17,6 +17,13 @@
 a {
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: tomato;
+}
 /* _______logo___________________ */
 .logo {
   font-family: 'Raleway', sans-serif;

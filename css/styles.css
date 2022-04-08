@@ -90,11 +90,10 @@ a {
 
 .services {
   background-color: var(--beckground-second);
-  height: 600px;
 }
-.serv-con {
+.services .container {
   padding-top: 200px;
-  padding-left: 452px;
+  padding-bottom: 200px;
 }
 .services-text {
   color: var(--primare-text-color);
@@ -114,9 +113,15 @@ a {
   font-weight: bold;
   border-radius: 4px;
   cursor: pointer;
+  margin-top: 30px;
+  border-radius: 4px;
+  padding: 10px 32px 10px 32px;
 }
 
 /* __________section 2_____________ */
+.styles .container {
+  padding: 94px 0 94px 0;
+}
 .header-styles {
   color: var(--header-styles-color);
   font-weight: bold;
@@ -136,11 +141,19 @@ a {
   font-size: 36px;
   line-height: 1.17;
 }
+/* _______section 3________ */
+.hero .container {
+  padding-bottom: 94px;
+}
+
 /* _________________team___________ */
 .team {
   background-color: #f5f4fa;
 }
-
+.team .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team-header {
   color: var(--header-styles-color);
   font-weight: 500;
@@ -185,6 +198,10 @@ a {
   background-color: var(--beckground-second);
   font-style: normal;
   font-weight: normal;
+}
+.footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .non {
   color: var(--primare-text-color);

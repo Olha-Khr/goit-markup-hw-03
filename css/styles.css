@@ -62,10 +62,10 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-/* .heade .container {
+.heade .container {
   display: flex;
   align-items: center;
-} */
+}
 .logo {
   padding-top: 25px;
   padding-bottom: 24px;

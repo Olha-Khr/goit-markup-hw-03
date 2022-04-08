@@ -35,7 +35,11 @@ ol {
 a {
   text-decoration: none;
 }
-
+/* ____________nav________ */
+.navi {
+  display: flex;
+  align-items: center;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -73,6 +77,16 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.site-nav .item {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.contacts .contact {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .contacts .link {
   color: var(--contacts-text-color);
   text-decoration: none;
@@ -84,12 +98,22 @@ a {
 .heade .container {
   padding: 24px 0px 25px 0px;
 }
-
-.heade .container {
+.site-nav {
   display: flex;
-  align-items: center;
+  margin-left: 93px;
 }
 
+.contacts {
+  display: flex;
+  margin-left: auto;
+}
+
+.site-nav .item:not(last-child) {
+  margin-right: 50px;
+}
+.contacts .contact:not(last-child) {
+  margin-right: 50px;
+}
 /* _______services_______________ */
 
 .services {

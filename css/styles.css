@@ -6,6 +6,19 @@
   --primare-text-color: #ffffff;
   --beckground-second: #2f303a;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+}
 .body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
@@ -17,6 +30,7 @@
 a {
   text-decoration: none;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -62,36 +76,31 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+.heade {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
 .heade .container {
   display: flex;
   align-items: center;
 }
-.logo {
-  padding-top: 25px;
-  padding-bottom: 24px;
-}
+
 /* _______services_______________ */
-.services .container {
-  width: 1600px;
-  height: 600px;
-  left: 0px;
-  top: 80px;
-}
 
 .services {
   background-color: var(--beckground-second);
+  height: 600px;
+}
+.serv-con {
+  padding-top: 200px;
+  padding-left: 452px;
 }
 .services-text {
   color: var(--primare-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-}
-.services-text {
-  padding-top: 200px;
-  padding-left: 452px;
-  padding-bottom: 200px;
-  padding-right: 452px;
 }
 
 .button:focus,
@@ -104,10 +113,6 @@ a {
   color: var(--primare-text-color);
   font-weight: bold;
   border-radius: 4px;
-  width: 200px;
-  height: 50px;
-  left: 700px;
-  top: 430px;
   cursor: pointer;
 }
 

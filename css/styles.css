@@ -18,7 +18,12 @@ h6 {
 ul,
 ol {
   margin: 0;
+  padding-left: 0;
 }
+.img {
+  display: block;
+}
+
 .body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff;
@@ -127,6 +132,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   list-style: none;
+  margin-bottom: 10px;
 }
 .header-tex {
   color: var(--contacts-text-color);
@@ -139,6 +145,7 @@ a {
   color: var(--header-styles-color);
   font-size: 36px;
   line-height: 1.17;
+  margin-bottom: 50px;
 }
 /* _______section 3________ */
 .hero .container {
@@ -149,6 +156,9 @@ a {
 .team {
   background-color: #f5f4fa;
 }
+.team-images {
+  border: 1px solid #ffffff;
+}
 .team .container {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -158,6 +168,8 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team-text {
   color: var(--contacts-text-color);

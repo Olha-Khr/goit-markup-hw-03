@@ -119,7 +119,7 @@ a {
   cursor: pointer;
   margin-top: 30px;
   border-radius: 4px;
-  padding: 10px 32px 10px 32px;
+  padding: 10px 32px;
 }
 
 /* __________section 2_____________ */
@@ -157,6 +157,8 @@ a {
   background-color: #f5f4fa;
 }
 .team-images {
+  width: 270px;
+  height: 368px;
   border: 1px solid #ffffff;
 }
 .team .container {
@@ -202,14 +204,21 @@ a {
   cursor: pointer;
 }
 /* -----------all----------- */
+.services-box {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+}
 .services-all-header {
   letter-spacing: 0.06em;
   color: var(--header-styles-color);
+  margin-top: 20px;
 }
 .services-all-text {
   font-weight: 400;
   letter-spacing: 0.03em;
   color: var(--contacts-text-color);
+  margin-top: 9px;
 }
 /* --------------------------footer */
 .footer {
@@ -227,6 +236,9 @@ a {
 .footer-content {
   font-size: 14px;
   line-height: 1.71;
+}
+.content {
+  margin-bottom: 9px;
 }
 .footer-content-addres {
   color: var(--primare-text-color);

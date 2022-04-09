@@ -36,16 +36,33 @@ a {
   text-decoration: none;
 }
 /* ____________nav________ */
-.navi {
-  display: flex;
-  align-items: center;
-}
+
 .container {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   outline: 2px solid tomato;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+.lains {
+  border-bottom: 1px solid #ececec;
+}
+.navi {
+  display: flex;
+  align-items: center;
 }
 /* _______logo___________________ */
 .logo {
@@ -123,6 +140,7 @@ a {
   padding-top: 200px;
   padding-bottom: 200px;
 }
+
 .services-text {
   color: var(--primare-text-color);
   font-weight: 900;
@@ -142,7 +160,6 @@ a {
   border-radius: 4px;
   cursor: pointer;
   margin-top: 30px;
-  border-radius: 4px;
   padding: 10px 32px;
 }
 
@@ -173,6 +190,10 @@ a {
 }
 .styles-line {
   display: flex;
+  flex-wrap: wrap;
+}
+.styles-line .lin {
+  width: 270px;
 }
 .styles-line .lin:not(last-child) {
   margin-right: 0;
@@ -189,8 +210,8 @@ a {
 .hero-lin {
   margin-right: 30px;
 }
-.hero-box .hero-lin:not(last-child) {
-  margin-right: 0;
+.hero-lin:nth-last-child(3) {
+  margin-right: 0px;
 }
 
 /* _________________team___________ */
@@ -206,6 +227,9 @@ a {
   height: 368px;
   border: 1px solid #ffffff;
   margin-right: 30px;
+}
+.team-images:nth-last-child(4) {
+  margin-right: 0;
 }
 
 .team .container {
@@ -240,7 +264,15 @@ a {
   padding-bottom: 94px;
 }
 .button-active {
+  display: flex;
   margin-bottom: 50px;
+  justify-content: center;
+}
+.button-act {
+  margin-right: 8px;
+}
+.button-active .button-act:not(last-child) {
+  margin-right: 8px;
 }
 .button-act {
   font-weight: 500;
@@ -249,22 +281,28 @@ a {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  display: block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  border: 1px solid #f5f4fa;
 }
 /* -----------all----------- */
 .services-box {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
-.all {
+.all-container .all {
   display: flex;
   flex-wrap: wrap;
 }
-.services-box {
-  margin-right: 30px;
-}
 
 .services-box:nth-child(3n) {
+  margin-right: 0;
+}
+.services-box:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
 .services-all-header {

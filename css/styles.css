@@ -35,6 +35,11 @@ ol {
 a {
   text-decoration: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ____________nav________ */
 
 .container {
@@ -112,9 +117,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.heade .container {
-  padding: 24px 0px 25px 0px;
-}
+
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -131,21 +134,26 @@ a {
 .contacts .contact:not(last-child) {
   margin-right: 50px;
 }
-/* _______services_______________ */
+/* _______services 1_______________ */
 
 .services {
   background-color: var(--beckground-second);
+  padding: 200px 0;
 }
 .services .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  margin: auto;
 }
-
 .services-text {
   color: var(--primare-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+  margin: 0 auto 30px;
+  width: 696px;
 }
 
 .button:focus,
@@ -156,20 +164,27 @@ a {
 .button {
   background: var(--accent-color);
   color: var(--primare-text-color);
-  font-weight: bold;
-  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   cursor: pointer;
-  margin-top: 30px;
   padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border-width: 0;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  min-width: 200px;
 }
-
 /* __________section 2_____________ */
-.styles .container {
-  padding: 94px 0 94px 0;
-}
+
 .header-styles {
   color: var(--header-styles-color);
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   list-style: none;
@@ -195,62 +210,72 @@ a {
 .styles-line .lin {
   width: 270px;
 }
-.styles-line .lin:not(last-child) {
-  margin-right: 0;
+.styles-line .lin:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* _______section 3________ */
-.hero .container {
-  padding-bottom: 94px;
+.header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.hero {
+  padding-top: 0;
 }
 .hero-box {
   display: flex;
-  flex-wrap: wrap;
 }
 .hero-lin {
   margin-right: 30px;
 }
-.hero-lin:nth-last-child(3) {
-  margin-right: 0px;
+.hero-lin:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* _________________team___________ */
+
 .team {
   background-color: #f5f4fa;
 }
 .teams {
   display: flex;
-  flex-wrap: wrap;
 }
 .team-images {
   width: 270px;
-  height: 368px;
-  border: 1px solid #ffffff;
+  background-color: #ffffff;
   margin-right: 30px;
-}
-.team-images:nth-last-child(4) {
-  margin-right: 0;
+  box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
+    0px 2px 1px rgb(0 0 0 / 20%);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.team-images:not(:last-child) {
+  margin-right: 30px;
 }
-.team-header {
+
+.team-images .team-styles {
+  padding: 30px 10px;
+}
+
+.team-images .team-header {
   color: var(--header-styles-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 30px;
+  text-align: center;
+  letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
-.team-text {
+.team-images .team-text {
   color: var(--contacts-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  text-align: center;
 }
-
 /* portfolio */
 
 /* --------------button-------- */
@@ -258,10 +283,6 @@ a {
 .button-act:focus {
   background: var(--accent-color);
   color: var(--primare-text-color);
-}
-.services-all .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 .button-active {
   display: flex;
@@ -319,12 +340,12 @@ a {
 /* --------------------------footer */
 .footer {
   background-color: var(--beckground-second);
-  font-style: normal;
   font-weight: normal;
+  padding: 60px 0;
 }
-.footer .container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+.footer .footer-content {
+  font-style: normal;
+  margin-top: 20px;
 }
 .non {
   color: var(--primare-text-color);

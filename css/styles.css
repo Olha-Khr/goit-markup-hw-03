@@ -171,6 +171,13 @@ a {
   line-height: 1.17;
   margin-bottom: 50px;
 }
+.styles-line {
+  display: flex;
+}
+.styles-line .lin:not(last-child) {
+  margin-right: 0;
+}
+
 /* _______section 3________ */
 .hero .container {
   padding-bottom: 94px;
@@ -232,6 +239,17 @@ a {
   width: 370px;
   height: 404px;
   border: 1px solid #eeeeee;
+}
+.all {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services-box {
+  margin-right: 30px;
+}
+
+.services-box:nth-child(3n) {
+  margin-bottom: 0;
 }
 .services-all-header {
   letter-spacing: 0.06em;

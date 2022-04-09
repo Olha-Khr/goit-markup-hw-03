@@ -138,6 +138,7 @@ a {
 
 .services {
   background-color: var(--beckground-second);
+  text-align: center;
   padding: 200px 0;
 }
 .services .container {

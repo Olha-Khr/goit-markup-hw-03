@@ -310,14 +310,20 @@ a {
 /* -----------all----------- */
 .services-box {
   width: 370px;
-  height: 404px;
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
   margin-right: 30px;
   margin-bottom: 30px;
 }
 .all-container .all {
   display: flex;
   flex-wrap: wrap;
+}
+.services-styles {
+  border-top: none;
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .services-box:nth-child(3n) {
@@ -327,15 +333,21 @@ a {
   margin-bottom: 0;
 }
 .services-all-header {
-  letter-spacing: 0.06em;
   color: var(--header-styles-color);
   margin-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 4px;
+  letter-spacing: 0.06em;
 }
 .services-all-text {
+  color: var(--contacts-text-color);
   font-weight: 400;
   letter-spacing: 0.03em;
-  color: var(--contacts-text-color);
   margin-top: 9px;
+  font-size: 16px;
+  line-height: 1.87;
 }
 /* --------------------------footer */
 .footer {

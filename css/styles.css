@@ -182,16 +182,32 @@ a {
 .hero .container {
   padding-bottom: 94px;
 }
+.hero-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-lin {
+  margin-right: 30px;
+}
+.hero-box .hero-lin:not(last-child) {
+  margin-right: 0;
+}
 
 /* _________________team___________ */
 .team {
   background-color: #f5f4fa;
 }
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+}
 .team-images {
   width: 270px;
   height: 368px;
   border: 1px solid #ffffff;
+  margin-right: 30px;
 }
+
 .team .container {
   padding-top: 94px;
   padding-bottom: 94px;

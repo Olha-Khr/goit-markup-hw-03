@@ -22,6 +22,7 @@ ol {
 }
 .img {
   display: block;
+  max-width: 100%;
 }
 
 .body {
@@ -198,7 +199,8 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.header {
+/* <!-- "title" --> */
+.title {
   color: var(--header-styles-color);
   font-size: 36px;
   line-height: 1.17;
@@ -216,7 +218,7 @@ a {
 }
 
 /* _______section 3________ */
-.header {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -335,7 +337,6 @@ a {
 }
 .services-all-header {
   color: var(--header-styles-color);
-  margin-top: 20px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;

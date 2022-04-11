@@ -5,6 +5,9 @@
   --accent-color: #2196f3;
   --primare-text-color: #ffffff;
   --beckground-second: #2f303a;
+  --button-focus-color: #188ce8;
+  --team-background-color: #f5f4fa;
+  --logo-studio-color: #000000;
 }
 p,
 h1,
@@ -20,14 +23,9 @@ ol {
   margin: 0;
   padding-left: 0;
 }
-.img {
-  display: block;
-  max-width: 100%;
-}
-
 .body {
   font-family: 'Roboto', sans-serif;
-  background-color: #ffffff;
+  background-color: var(--primare-text-color);
   color: var(--primare-text-color);
 }
 .list {
@@ -83,7 +81,7 @@ a {
   color: var(--accent-color);
 }
 .logo-studio {
-  color: #000000;
+  color: var(--logo-studio-color);
 }
 /* -----------site-nav----------- */
 .site-nav .link:focus,
@@ -160,7 +158,7 @@ a {
 
 .button:focus,
 .button:hover {
-  background-color: #188ce8;
+  background-color: var(--button-focus-color);
 }
 
 .button {
@@ -241,14 +239,14 @@ a {
 /* _________________team___________ */
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-background-color);
 }
 .teams {
   display: flex;
 }
 .team-images {
   width: 270px;
-  background-color: #ffffff;
+  background-color: var(--primare-text-color);
   margin-right: 30px;
   box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%),
     0px 2px 1px rgb(0 0 0 / 20%);
@@ -353,7 +351,6 @@ a {
   color: var(--contacts-text-color);
   font-weight: 400;
   letter-spacing: 0.03em;
-  margin-top: 9px;
   font-size: 16px;
   line-height: 1.87;
 }
